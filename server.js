@@ -32,7 +32,7 @@ if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 
   }
 }
-console.log('DB Configuration : url - %s: host - %s: port - %s: db - %s user -%s: pwd - %s', mongoURL, mongoHost,mongoPort, mongoDatabase, mongoUser, mongoPassword);
+console.log('DB Configuration : url - %s: host - %s: port - %s: db - %s user -%s pwd - %s', mongoURL, mongoHost,mongoPort, mongoDatabase, mongoUser, mongoPassword);
 var db = null,
     dbDetails = new Object();
 
