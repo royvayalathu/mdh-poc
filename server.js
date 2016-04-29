@@ -32,6 +32,7 @@ if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 
   }
 }
+console.log('DB Configuration ://%s:%s', mongoURL, mongoHost);
 var db = null,
     dbDetails = new Object();
 
